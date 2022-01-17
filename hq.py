@@ -22,7 +22,7 @@ import aniso8601
 #keep_alive.keep_alive()
 
 #RAVE™
-webhook_url="https://discordapp./api/webhooks/931117026020319232/O1rATKh2gaL3Ehz2AtneHK3GYhGQ_5k5ne7muArflMz6d_t9UD8YoOWVyak61N82wNsp"
+webhook_url="https://discordapp.com/api/webhooks/931117026020319232/O1rATKh2gaL3Ehz2AtneHK3GYhGQ_5k5ne7muArflMz6d_t9UD8YoOWVyak61N82wNsp"
 #ELITE OP
 webhook = "https://discord.com/api/webhooks/828168111181266945/D7pO7IYTwuOMTIJarggU7X3hA8UTdjknDzeSl70KBcKCQIn-EatVDdoUWjNvvb6r1pwj"
 #VENOM
