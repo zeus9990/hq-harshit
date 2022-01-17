@@ -21,30 +21,34 @@ import aniso8601
 #import keep_alive
 #keep_alive.keep_alive()
 
-webhook_url="https://discord.com/api/webhooks/825074776057184277/wuX43KHVICOtqazjX5IRtCTmEIQl73rfzbSiJmBOL_T4kaCCEzQANWpKsFw9RKVJ71sf"
+#RAVE™
+webhook_url="https://discordapp./api/webhooks/931117026020319232/O1rATKh2gaL3Ehz2AtneHK3GYhGQ_5k5ne7muArflMz6d_t9UD8YoOWVyak61N82wNsp"
+#ELITE OP
 webhook = "https://discord.com/api/webhooks/828168111181266945/D7pO7IYTwuOMTIJarggU7X3hA8UTdjknDzeSl70KBcKCQIn-EatVDdoUWjNvvb6r1pwj"
+#VENOM
 we="https://discord.com/api/webhooks/829390738202034257/tLqaG4kGD8-g-HeT7YeJucr4AcKZfx6X-2IE5cZXiWugbvdoW8QFzkKS5lUko2jBpDSk"
+#EMPTY
 web="https://discord.com/api/webhooks/829773820143206420/Qr9qD-_kXYtKhitTQdqV5VbaFmAep8xPb6zqFWFJZNYKQWQ5YVlOkcH7aUPRGA1Iw-Bl"
 
 try:
     hook = Webhook(webhook_url)
 except:
-    print("boss Invalid WebHook Url!")
+    print("RAVE Invalid WebHook Url!")
 
 try:
     hook3 = Webhook(web)
 except:
-    print("boss2 Invalid WebHook Url!")
+    print("ELITE Invalid WebHook Url!")
 
 try:
     hook2 = Webhook(webhook)
 except:
-    print("boss1 Invalid WebHook Url!")
+    print("VENOM Invalid WebHook Url!")
 
 try:
     hq = Webhook(we)
 except:
-    print("harshit Invalid WebHook Url!")
+    print("EMPTY Invalid WebHook Url!")
     
 
 def show_not_on():
@@ -94,12 +98,12 @@ def show_not_on():
             time.sleep(5)
             print(x_in)
             print(prize)
-            #embed = Embed(title=f"HQ Trivia", description=f"**Next Game Starts In**\n**{x_in}**", color=0x000000)
-            #embed.add_field(name="Next Show Prize", value=f"**{prize}**",inline=True)
-            #embed.set_image(url="https://cdn.discordapp.com/attachments/649457795875209265/672845602824126494/Nitro_2.gif")
-            #embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/737764195743039488/737764248553521293/734231449955205141.gif")
-            #embed.set_footer(text="Hotstar Google | Devloped by Harshit")
-            #hook.send(content="@everyone",embed=embed)
+            embed = Embed(title=f"HQ Trivia", description=f"**Next Game Starts In**\n**{x_in}**", color=0x000000)
+            embed.add_field(name="Next Show Prize", value=f"**{prize}**",inline=True)
+            embed.set_image(url="https://cdn.discordapp.com/attachments/649457795875209265/672845602824126494/Nitro_2.gif")
+            embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/737764195743039488/737764248553521293/734231449955205141.gif")
+            embed.set_footer(text="Hype Google | Devloped by Prayas")
+            hook.send(content="@everyone",embed=embed)
             #hq.send(f"**Hq Google Ready**")
             #hook.send(f"**Hq Google Ready**")
             
@@ -156,12 +160,12 @@ def connect_websocket(socket_url, auth_token):
                 bar = "Search with all options"
                 sl = "https://www.google.com/search?q="+real_question+"+"+op1+"+"+op2+"+"+op3          
                 embed=discord.Embed(title=f"**Question {qcnt}/{Fullcnt}**",description=f"[{question}]({google_query}) \n\n [{bar}]({sl})")
-                #embed.set_footer(text="Made By Harshit")
+                embed.set_footer(text="Made By Ben X Prayas")
                 embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578379566544846901/630400208265805835/401ec468afa82a2937b8ad3a4e811463.jpg")
                 hook.send(embed=embed)
-                hook2.send(embed=embed)
-                hq.send(embed=embed)
-                hook3.send(embed=embed)
+                #hook2.send(embed=embed)
+                #hq.send(embed=embed)
+                #hook3.send(embed=embed)
                 r = requests.get("http://www.google.com/search?q="+ question +"+"+ option1 +"+"+ option2 +"+"+ option3)
                 soup = BeautifulSoup(r.text, 'html.parser')
                 response = soup.find_all("span", class_="st")
@@ -181,55 +185,55 @@ def connect_websocket(socket_url, auth_token):
                 if countoption1 == maxcount:
                     embed2=discord.Embed(title=f"**GOOGLE RESULT**",description=f"\n**:one:. {answers[0]} `:` {countoption1} :white_check_mark:**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     hook.send(embed=embed2)
-                    hq.send(embed=embed2)
-                    hook2.send(embed=embed2)
-                    hook3.send(embed=embed2)
-                    hook.send("hq")
-                    hq.send("hq")
-                    hook2.send("+h")
-                    hook3.send("+")
+                    #hq.send(embed=embed2)
+                    #hook2.send(embed=embed2)
+                    #hook3.send(embed=embed2)
+                    hook.send("e")
+                    #hq.send("hq")
+                    #hook2.send("+h")
+                    #hook3.send("+")
                     sleep(10)
                     embed=discord.Embed(title="",description="**⏰| Times Up!**",color=0x10C5FE) 
                     hook.send(embed=embed)
-                    hq.send(embed=embed)
-                    hook2.send(embed=embed)
-                    hook3.send(embed=embed)
+                    #hq.send(embed=embed)
+                    #hook2.send(embed=embed)
+                    #hook3.send(embed=embed)
                 elif countoption2 == maxcount:
                     embed2=discord.Embed(title=f"**Google Results**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} :white_check_mark:**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
-                    hq.send(embed=embed2)
-                    hook.send("hq")
-                    hq.send("hq")
-                    hook2.send(embed=embed2)
-                    hook2.send("+h")
-                    hook3.send(embed=embed2)
-                    hook3.send("+")
+                    #hq.send(embed=embed2)
+                    hook.send("e")
+                    #hq.send("hq")
+                    #hook2.send(embed=embed2)
+                    #hook2.send("+h")
+                    #hook3.send(embed=embed2)
+                    #hook3.send("+")
                     sleep(10)
                     embed=discord.Embed(title="",description="**⏰| Times Up!**",color=0x10C5FE) 
                     hook.send(embed=embed)
-                    hq.send(embed=embed)
-                    hook2.send(embed=embed)
-                    hook3.send(embed=embed)
+                    #hq.send(embed=embed)
+                    #hook2.send(embed=embed)
+                    #hook3.send(embed=embed)
                 else:
                     embed2=discord.Embed(title=f"**Google Results**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} :white_check_mark:**",colour=0x00FBFF)
                     embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
-                    hq.send(embed=embed2)
-                    hook.send("hq")
-                    hq.send("hq")
-                    hook2.send(embed=embed2)
-                    hook2.send("+h")
-                    hook3.send(embed=embed2)
-                    hook3.send("+")
+                    #hq.send(embed=embed2)
+                    hook.send("e")
+                    #hq.send("hq")
+                    #hook2.send(embed=embed2)
+                    #hook2.send("+h")
+                    #hook3.send(embed=embed2)
+                    #hook3.send("+")
                     sleep(10)
                     embed=discord.Embed(title="",description="**⏰| Times Up!**",color=0x10C5FE) 
                     hook.send(embed=embed)
-                    hq.send(embed=embed)
-                    hook2.send(embed=embed)
-                    hook3.send(embed=embed)
+                    #hq.send(embed=embed)
+                    #hook2.send(embed=embed)
+                    #hook3.send(embed=embed)
             elif message_data["type"] == "questionSummary":
 
                 answer_counts = {}
