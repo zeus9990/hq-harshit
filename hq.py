@@ -102,7 +102,7 @@ def show_not_on():
             embed.add_field(name="Next Show Prize", value=f"**{prize}**",inline=True)
             embed.set_image(url="https://cdn.discordapp.com/attachments/649457795875209265/672845602824126494/Nitro_2.gif")
             embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/737764195743039488/737764248553521293/734231449955205141.gif")
-            embed.set_footer(text="Hype Google | Devloped by Prayas,icon_url="https://cdn.discordapp.com/attachments/699654459264860291/714657857152221275/696173211058044968.png")
+            embed.set_footer(text="Hype Google | Devloped by Prayas", icon_url="https://cdn.discordapp.com/attachments/699654459264860291/714657857152221275/696173211058044968.png")
             hook.send(content="**Connected To HQ Socket !!**",embed=embed)
             #hq.send(f"**Hq Google Ready**")
             #hook.send(f"**Hq Google Ready**")
