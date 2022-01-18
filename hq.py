@@ -101,9 +101,9 @@ def show_not_on():
             embed = Embed(title=f"<:light:877755481857355816> HQ Trivia", description=f"**Next HQ Time In India🇮🇳 :**\n**{x_in}**", color=0x00FF00)
             embed.add_field(name="Next Show Prize", value=f"**{prize}**",inline=True)
             embed.set_image(url="https://cdn.discordapp.com/attachments/649457795875209265/672845602824126494/Nitro_2.gif")
-            embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578379566544846901/630400208265805835/401ec468afa82a2937b8ad3a4e811463.jpg")
-            embed.set_footer(text="Hype Google | Devloped by Prayas", icon_url="https://cdn.discordapp.com/attachments/699654459264860291/714657857152221275/696173211058044968.png")
-            hook.send(content="**Connected To HQ Socket !!**",embed=embed)
+            embed.set_thumbnail(url="https://media.discordapp.net/attachments/931116321419194368/932667794623967243/200w_1.gif")
+            embed.set_footer(text="Hype Google | Devloped by Prayas", icon_url="https://cdn.discordapp.com/attachments/578379566544846901/630400208265805835/401ec468afa82a2937b8ad3a4e811463.jpg")
+            hook.send(content="**Connected To HQ Socket Buddy 😘!!**",embed=embed)
             #hq.send(f"**Hq Google Ready**")
             #hook.send(f"**Hq Google Ready**")
             
@@ -186,7 +186,7 @@ def connect_websocket(socket_url, auth_token):
                 else:
                 	print(f"C {answers[2]}")              
                 if countoption1 == maxcount:
-                    embed2=discord.Embed(title=f"**GOOGLE RESULT**",description=f"\n**:one:. {answers[0]} `:` {countoption1} :white_check_mark:**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1} :white_check_mark:**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     hook.send(embed=embed2)
                     #hq.send(embed=embed2)
                     #hook2.send(embed=embed2)
@@ -203,7 +203,7 @@ def connect_websocket(socket_url, auth_token):
                     #hook2.send(embed=embed)
                     #hook3.send(embed=embed)
                 elif countoption2 == maxcount:
-                    embed2=discord.Embed(title=f"**Google Results**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} :white_check_mark:**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} :white_check_mark:**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
@@ -222,7 +222,7 @@ def connect_websocket(socket_url, auth_token):
                     #hook2.send(embed=embed)
                     #hook3.send(embed=embed)
                 else:
-                    embed2=discord.Embed(title=f"**Google Results**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} :white_check_mark:**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} :white_check_mark:**",colour=0x00FBFF)
                     embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
