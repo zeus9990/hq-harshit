@@ -105,6 +105,7 @@ def show_not_on():
             embed.set_thumbnail(url="https://media.discordapp.net/attachments/931116321419194368/932667794623967243/200w_1.gif")
             embed.set_footer(text="Hype Google | Devloped by Prayas", icon_url="https://cdn.discordapp.com/attachments/578379566544846901/630400208265805835/401ec468afa82a2937b8ad3a4e811463.jpg")
             hook.send(content="**Connected To HQ Socket Buddy 😘!!**",embed=embed)
+            print('Upcoming info sent successfully')
             #hq.send(f"**Hq Google Ready**")
             #hook.send(f"**Hq Google Ready**")
             
