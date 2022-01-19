@@ -188,7 +188,7 @@ def connect_websocket(socket_url, auth_token):
                 else:
                 	print(f"C {answers[2]}")              
                 if countoption1 == maxcount:
-                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1} :white_check_mark:**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1} ✅**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     hook.send(embed=embed2)
                     #hq.send(embed=embed2)
                     hook2.send(embed=embed2)
@@ -205,7 +205,7 @@ def connect_websocket(socket_url, auth_token):
                     hook2.send(embed=embed)
                     #hook3.send(embed=embed)
                 elif countoption2 == maxcount:
-                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} :white_check_mark:**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} ✅**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     #embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
@@ -224,7 +224,7 @@ def connect_websocket(socket_url, auth_token):
                     hook2.send(embed=embed)
                     #hook3.send(embed=embed)
                 else:
-                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} :white_check_mark:**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} ✅**",colour=0x00FBFF)
                     #embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
@@ -256,7 +256,7 @@ def connect_websocket(socket_url, auth_token):
                     maxcount = max(countoption1, countoption2, countoption3)
                 sumcount = countoption1+countoption2+countoption3
                 if countoption1 == maxcount:
-                    embed2=discord.Embed(title=f"**__Google Results 2!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1} :white_check_mark:**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results 2!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1} ✅**  \n**:two:. {answers[1]} `:` {countoption2}** \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     hook.send(embed=embed2)
                     #hq.send(embed=embed2)
                     hook2.send(embed=embed2)
@@ -273,7 +273,7 @@ def connect_websocket(socket_url, auth_token):
                     hook2.send(embed=embed)
                     #hook3.send(embed=embed)
                 elif countoption2 == maxcount:
-                    embed2=discord.Embed(title=f"**__Google Results 2!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} :white_check_mark:**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results 2!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}** \n**:two:. {answers[1]} `:` {countoption2} ✅**  \n**:three:. {answers[2]} `:` {countoption3}**",colour=0x00FBFF)
                     #embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
@@ -292,7 +292,7 @@ def connect_websocket(socket_url, auth_token):
                     hook2.send(embed=embed)
                     #hook3.send(embed=embed)
                 else:
-                    embed2=discord.Embed(title=f"**__Google Results 2!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} :white_check_mark:**",colour=0x00FBFF)
+                    embed2=discord.Embed(title=f"**__Google Results 2!__**",description=f"\n**:one:. {answers[0]} `:` {countoption1}**\n**:two:. {answers[1]} `:` {countoption2}**\n**:three:. {answers[2]} `:` {countoption3} ✅**",colour=0x00FBFF)
                     #embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
                     #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
                     hook.send(embed=embed2)
