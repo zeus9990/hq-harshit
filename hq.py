@@ -22,9 +22,9 @@ import aniso8601
 #keep_alive.keep_alive()
 
 #RAVE™
-webhook_url="https://discordapp.com/api/webhooks/931117026020319232/O1rATKh2gaL3Ehz2AtneHK3GYhGQ_5k5ne7muArflMz6d_t9UD8YoOWVyak61N82wNsp"
+webhook_url="https://discord.com/api/webhooks/931117026020319232/O1rATKh2gaL3Ehz2AtneHK3GYhGQ_5k5ne7muArflMz6d_t9UD8YoOWVyak61N82wNsp"
 #ELITE
-webhook = "https://discordapp.com/api/webhooks/933226558116724796/ejiTwUnGZe_-epIpqahactzwTtgiYLjUka7SrzCPDnu9THl4tCb8nxfwCfJ4r-yQZVHA"
+webhook = "https://discord.com/api/webhooks/933226558116724796/ejiTwUnGZe_-epIpqahactzwTtgiYLjUka7SrzCPDnu9THl4tCb8nxfwCfJ4r-yQZVHA"
 we="https://discord.com/api/webhooks/8293950738202034257/tLqaG4kGD8-g-HeT7YeJucr4AcKZfx6X-2IE5cZXiWugbvdoW8QFzkKS5lUko2jBpDSk"
 web="https://discord.com/api/webhooks/8297743820143206420/Qr9qD-_kXYtKhitTQdqV5VbaFmAep8xPb6zqFWFJZNYKQWQ5YVlOkcH7aUPRGA1Iw-Bl"
 
