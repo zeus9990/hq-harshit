@@ -21,30 +21,32 @@ import aniso8601
 #import keep_alive
 #keep_alive.keep_alive()
 
-webhook_url="https://discord.com/api/webhooks/825074776057184277/wuX43KHVICOtqazjX5IRtCTmEIQl73rfzbSiJmBOL_T4kaCCEzQANWpKsFw9RKVJ71sf"
-webhook = "https://discord.com/api/webhooks/828168111181266945/D7pO7IYTwuOMTIJarggU7X3hA8UTdjknDzeSl70KBcKCQIn-EatVDdoUWjNvvb6r1pwj"
-we="https://discord.com/api/webhooks/829390738202034257/tLqaG4kGD8-g-HeT7YeJucr4AcKZfx6X-2IE5cZXiWugbvdoW8QFzkKS5lUko2jBpDSk"
-web="https://discord.com/api/webhooks/829773820143206420/Qr9qD-_kXYtKhitTQdqV5VbaFmAep8xPb6zqFWFJZNYKQWQ5YVlOkcH7aUPRGA1Iw-Bl"
+#RAVE™
+webhook_url="https://discordapp.com/api/webhooks/931117026020319232/O1rATKh2gaL3Ehz2AtneHK3GYhGQ_5k5ne7muArflMz6d_t9UD8YoOWVyak61N82wNsp"
+#ELITE
+webhook = "https://discordapp.com/api/webhooks/933226558116724796/ejiTwUnGZe_-epIpqahactzwTtgiYLjUka7SrzCPDnu9THl4tCb8nxfwCfJ4r-yQZVHA"
+we="https://discord.com/api/webhooks/8293950738202034257/tLqaG4kGD8-g-HeT7YeJucr4AcKZfx6X-2IE5cZXiWugbvdoW8QFzkKS5lUko2jBpDSk"
+web="https://discord.com/api/webhooks/8297743820143206420/Qr9qD-_kXYtKhitTQdqV5VbaFmAep8xPb6zqFWFJZNYKQWQ5YVlOkcH7aUPRGA1Iw-Bl"
 
 try:
     hook = Webhook(webhook_url)
 except:
-    print("boss Invalid WebHook Url!")
+    print("Rave Invalid WebHook Url!")
 
 try:
     hook3 = Webhook(web)
 except:
-    print("boss2 Invalid WebHook Url!")
+    print("web Invalid WebHook Url!")
 
 try:
     hook2 = Webhook(webhook)
 except:
-    print("boss1 Invalid WebHook Url!")
+    print("Elite Invalid WebHook Url!")
 
 try:
     hq = Webhook(we)
 except:
-    print("harshit Invalid WebHook Url!")
+    print("we Invalid WebHook Url!")
     
 
 def show_not_on():
@@ -94,14 +96,15 @@ def show_not_on():
             time.sleep(5)
             print(x_in)
             print(prize)
-            #embed = Embed(title=f"HQ Trivia", description=f"**Next Game Starts In**\n**{x_in}**", color=0x000000)
-            #embed.add_field(name="Next Show Prize", value=f"**{prize}**",inline=True)
-            #embed.set_image(url="https://cdn.discordapp.com/attachments/649457795875209265/672845602824126494/Nitro_2.gif")
-            #embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/737764195743039488/737764248553521293/734231449955205141.gif")
-            #embed.set_footer(text="Hotstar Google | Devloped by Harshit")
-            #hook.send(content="@everyone",embed=embed)
+            embed = Embed(title=f"<:light:877755481857355816> HQ Trivia", description=f"**Next HQ Time In India🇮🇳 :**\n**{x_in}**", color=0x00FF00)
+            embed.add_field(name="Next Show Prize", value=f"**{prize}**",inline=True)
+            embed.set_image(url="https://cdn.discordapp.com/attachments/649457795875209265/672845602824126494/Nitro_2.gif")
+            embed.set_thumbnail(url="https://media.discordapp.net/attachments/931116321419194368/932667794623967243/200w_1.gif")
+            embed.set_footer(text="Hype Google | Devloped by Prayas", icon_url="https://cdn.discordapp.com/attachments/578379566544846901/630400208265805835/401ec468afa82a2937b8ad3a4e811463.jpg")
+            hook.send(content="**Connected To HQ Socket Buddy 😘!!**",embed=embed)
+            print('Upcoming info sent successfully')
             #hq.send(f"**Hq Google Ready**")
-            #hook.send(f"**Hq Google Ready**")
+            hook2.send(content="**Connected To HQ Socket Buddy 😘!!**",embed=embed)
             
 
 
